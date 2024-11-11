@@ -84,7 +84,7 @@ export default {
         async apiRequest (){
             const main = this.cate.main
             const sub = this.cate.sub
-            const res = await axios.get(`http://localhost:4000/news?m=${main}&s=${sub}`)
+            const res = await axios.get(`http://server-8dyx.vercel.app?m=${main}&s=${sub}`)
 
             this.data = res.data.data
             console.log(this.data)
