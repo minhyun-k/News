@@ -1,24 +1,42 @@
-# news
+# News App - 포트폴리오 프로젝트
 
-## Project setup
-```
-npm install
-```
+[![배포 사이트](https://img.shields.io/badge/배포%20사이트-live-green)](https://apinews-virid.vercel.app/)  
+[![GitHub Repository](https://img.shields.io/badge/GitHub%20Repository-blue)](https://github.com/minhyun-k/News.git)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+---
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 프로젝트 소개
 
-### Lints and fixes files
-```
-npm run lint
-```
+**News App**은 최신 뉴스 정보를 제공하는 웹 애플리케이션입니다. 이 프로젝트는 **React.js**를 사용하여 구축되었으며, **News API**를 통해 실시간으로 다양한 카테고리의 뉴스를 가져와 사용자가 쉽게 정보를 탐색할 수 있도록 돕습니다. 사용자는 관심 있는 카테고리의 뉴스를 필터링하고, 각 뉴스의 상세 정보를 확인할 수 있습니다.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+이 프로젝트는 개인 포트폴리오의 일환으로 제작되었으며, 웹 개발에 대한 실력을 보여주는 데 중점을 두었습니다.
+
+---
+
+## 주요 기능
+
+- **실시간 뉴스 업데이트**: News API를 통해 최신 뉴스를 자동으로 불러옵니다.
+- **카테고리별 뉴스 필터링**: 사용자는 스포츠, 기술, 경제 등 다양한 카테고리의 뉴스를 필터링하여 볼 수 있습니다.
+- **뉴스 상세 페이지**: 각 뉴스 아이템을 클릭하면 상세한 정보를 볼 수 있는 페이지로 이동합니다.
+- **반응형 디자인**: 다양한 화면 크기에서 잘 작동하는 반응형 웹 디자인을 채택하여, 모바일에서도 최적화된 사용자 경험을 제공합니다.
+- **뉴스 소스 제공**: 각 뉴스 항목에는 해당 기사를 제공한 출처를 명시하여 신뢰성을 높였습니다.
+
+---
+
+## 사용 기술
+
+- **React.js**: 컴포넌트 기반의 UI 프레임워크로, 효율적인 상태 관리와 렌더링을 제공합니다.
+- **News API**: 외부 뉴스 API를 사용하여 최신 뉴스 데이터를 동적으로 가져옵니다.
+- **CSS3**: 스타일링을 위해 기본적인 CSS3를 사용하여 깔끔하고 직관적인 UI를 구현하였습니다.
+- **Vercel**: 프로젝트를 Vercel을 통해 배포하여, 실시간으로 접근할 수 있습니다.
+
+---
+
+## 설치 및 실행 방법
+
+### 1. 레포지토리 클론
+
+먼저 GitHub 저장소를 클론합니다.
+
+```bash
+git clone https://github.com/minhyun-k/News.git
